@@ -60,6 +60,17 @@ h3 {
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
   text-indent: 10px;
+  outline: none;
+}
+
+.input:hover {
+  outline: none;
+  border: 1px solid #000;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid #4e75ff;
 }
 
 .button {
@@ -75,6 +86,17 @@ h3 {
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
   border: 0px;
+}
+
+.button:hover {
+  background: #6c8cff;
+  transition: 250ms ease;
+}
+
+.button:focus {
+  background: #6c8cff;
+  transition: 250ms ease;
+  outline: none;
 }
 
 .loader {
