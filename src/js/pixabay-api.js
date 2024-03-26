@@ -14,7 +14,6 @@ function fetchImages(searchQuery) {
     .then(data => data.hits)
     .catch(error => {
       console.error(error);
-      return [];
     });
 }
 

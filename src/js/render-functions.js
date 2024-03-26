@@ -49,9 +49,9 @@ function renderImages(images) {
     })
     .join('');
   gallery.insertAdjacentHTML('beforeend', galleryMarkup);
-
-  const lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt' });
   lightbox.refresh();
 }
+
+const lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt' });
 
 export { renderImages };
